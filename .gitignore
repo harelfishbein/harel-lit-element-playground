@@ -11,3 +11,4 @@
 # personal changes (don't undertand why I added)
 .yarn/*
 .yarn/cache/*
+.vscode/*

@@ -7,3 +7,7 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !/.yarn/cache
 #/.pnp.*
+
+# personal changes (don't undertand why I added)
+.yarn/*
+.yarn/cache/*

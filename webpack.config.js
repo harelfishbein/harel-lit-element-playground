@@ -17,11 +17,10 @@ const babelOptions = {
 /*
 const tsCheckOptions = {
   async: process.env.NODE_ENV !== "production",
-  mode: "write-references",
   typescript: {
     build: true,
-    configFile: resolve(__dirname, "./tsconfig.json"),
-    mode: "write-tsbuildinfo",
+    configFile: "./tsconfig.json",
+    mode: "write-references",
     profile: process.env.NODE_ENV !== "production",
     diagnosticOptions: {
       semantic: true,
@@ -58,7 +57,7 @@ module.exports = {
 	target: "async-node",
 	plugins: [
 //	  new HtmlWebpackPlugin(),
-//    new TsCheckerPlugin(tsCheckOptions),
+//        new TsCheckerPlugin(tsCheckOptions),
 	],
 	devServer: {
 	  contentBase: path.join(__dirname, 'dist'),

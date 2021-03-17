@@ -1372,6 +1372,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@repeaterjs/repeater@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "@repeaterjs/repeater@npm:3.0.4"
+  checksum: 45e4afba3e8756e585c3807452596349b8c2d085546558e2eb13dd6de37ae0e6a235abda3feecfd955a32ae1db6194eafa78a91788d1506f35b4fb51e482974b
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -2428,15 +2435,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^3.0.1":
-  version: 3.0.2
-  resolution: "braces@npm:3.0.2"
-  dependencies:
-    fill-range: ^7.0.1
-  checksum: f3493181c3e91a1333d3c9afc9b3263a3f62f4ced0b033c372efc1373b48a7699557f4e04026b232a8556e043ca5360a9d3008c33852350138d4b0ea57558b8d
-  languageName: node
-  linkType: hard
-
 "browserslist@npm:^4.14.5, browserslist@npm:^4.16.3":
   version: 4.16.3
   resolution: "browserslist@npm:4.16.3"
@@ -3390,17 +3388,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^4.0.0":
-  version: 4.5.0
-  resolution: "enhanced-resolve@npm:4.5.0"
-  dependencies:
-    graceful-fs: ^4.1.2
-    memory-fs: ^0.5.0
-    tapable: ^1.0.0
-  checksum: 72e679343f3ca6f2f84b1259460705fa29d46f0b806fa562db96edeb7826357a97ba9ccb61a07cdb05f51c1b4d2f5b544a2e4a6c257d7395a0c9b6e727f86d08
-  languageName: node
-  linkType: hard
-
 "enhanced-resolve@npm:^5.7.0":
   version: 5.7.0
   resolution: "enhanced-resolve@npm:5.7.0"
@@ -3753,15 +3740,6 @@ __metadata:
     repeat-string: ^1.6.1
     to-regex-range: ^2.1.0
   checksum: 4a1491ee292f3d4a3d073c34cff0d7ba00dad8ad0de12d0a973c5aefb3f3f54971508cbc4b1c4923f6278b692b7695f9561086571fbee9f24cf3435ab92e8d50
-  languageName: node
-  linkType: hard
-
-"fill-range@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "fill-range@npm:7.0.1"
-  dependencies:
-    to-regex-range: ^5.0.1
-  checksum: efca43d59b487ad4bc0b2b1cb9e51617c75a7b0159db51fa190c75c3d634ea5fad1ff4750d7c14346add4cd065e3c46e8f99af333edf2b4ec2a424f87e491a85
   languageName: node
   linkType: hard
 
@@ -4715,13 +4693,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"is-number@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "is-number@npm:7.0.0"
-  checksum: eec6e506c6de472af4bdfd0cc477e8aeb76f0a7066c8680fcdfed5324ee31a7d2b59d22313007c58aa80eb937f0c40eefdceedb851997d46b490b49f87160369
-  languageName: node
-  linkType: hard
-
 "is-path-cwd@npm:^2.0.0":
   version: 2.2.0
   resolution: "is-path-cwd@npm:2.2.0"
@@ -5320,16 +5291,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"memory-fs@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "memory-fs@npm:0.5.0"
-  dependencies:
-    errno: ^0.1.3
-    readable-stream: ^2.0.1
-  checksum: deb916f33ca09215d6ad58db30854bbf36aaca86e018dcbbbdb7c6160661e8c0b9acdcc23c9931fc6dcd62f3dd5318a7ecab519e3688f7787d0833e5f48c0d0a
-  languageName: node
-  linkType: hard
-
 "merge-descriptors@npm:1.0.1":
   version: 1.0.1
   resolution: "merge-descriptors@npm:1.0.1"
@@ -5369,16 +5330,6 @@ fsevents@^1.2.7:
     snapdragon: ^0.8.1
     to-regex: ^3.0.2
   checksum: a60e73539a3ac6c6231f11642257a460861302df5986a94fd418d1b64a817409cda778d7023b53541a2091b523eda2c6f7212721e380d0b696284b7ca0a45bda
-  languageName: node
-  linkType: hard
-
-"micromatch@npm:^4.0.0":
-  version: 4.0.2
-  resolution: "micromatch@npm:4.0.2"
-  dependencies:
-    braces: ^3.0.1
-    picomatch: ^2.0.5
-  checksum: 0cb0e11d647cbb65e398a0a8a1340a7fb751ae2722346219c435704cfac8b3275a94a6464236fe867f52ad46a24046d3bc4ac11b3d21ddb73bc44e27cf1e4904
   languageName: node
   linkType: hard
 
@@ -6334,13 +6285,6 @@ fsevents@^1.2.7:
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
   checksum: bb4ebed0b03d6c3ad3ae4eddd1182c895d385cff9096af441c19c130aaae3ea70229438ebc3297dfc52c86022f6becf177a810050823d01bf5280779cd2de624
-  languageName: node
-  linkType: hard
-
-"picomatch@npm:^2.0.5":
-  version: 2.2.2
-  resolution: "picomatch@npm:2.2.2"
-  checksum: 20fa75e0a58b39d83425b3db68744d5f6f361fd4fd66ec7745d884036d502abba0d553a637703af79939b844164b13e60eea339ccb043d7fbd74c3da2592b864
   languageName: node
   linkType: hard
 
@@ -7632,13 +7576,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"tapable@npm:^1.0.0":
-  version: 1.1.3
-  resolution: "tapable@npm:1.1.3"
-  checksum: b2c2ab20260394b867fd249d8b6ab3e4645e00f9cce16b558b0de5a86291ef05f536f578744549d1618c9032c7f99bc1d6f68967e4aa11cb0dca4461dc4714bc
-  languageName: node
-  linkType: hard
-
 "tapable@npm:^2.0.0, tapable@npm:^2.1.1, tapable@npm:^2.2.0":
   version: 2.2.0
   resolution: "tapable@npm:2.2.0"
@@ -7749,15 +7686,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"to-regex-range@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "to-regex-range@npm:5.0.1"
-  dependencies:
-    is-number: ^7.0.0
-  checksum: 2b6001e314e4998a07137c197e333fac2f86d46d0593da90b678ae64e2daa07274b508f83cca09e6b3504cdf222497dcb5b7daceb6dc13a9a8872f58a27db907
-  languageName: node
-  linkType: hard
-
 "to-regex@npm:^3.0.1, to-regex@npm:^3.0.2":
   version: 3.0.2
   resolution: "to-regex@npm:3.0.2"
@@ -7791,22 +7719,6 @@ fsevents@^1.2.7:
   version: 1.0.4
   resolution: "treeverse@npm:1.0.4"
   checksum: 8f97a0c95d3e28997680fdc1506705ffc7edf8a125d901aff61184ab83b9f1679978682928d2d569a2034f5802685bbc5ee1f21ab7ac86ba581c91798b726f59
-  languageName: node
-  linkType: hard
-
-"ts-loader@npm:^8.0.17":
-  version: 8.0.17
-  resolution: "ts-loader@npm:8.0.17"
-  dependencies:
-    chalk: ^4.1.0
-    enhanced-resolve: ^4.0.0
-    loader-utils: ^2.0.0
-    micromatch: ^4.0.0
-    semver: ^7.3.4
-  peerDependencies:
-    typescript: "*"
-    webpack: "*"
-  checksum: e09b71875034ec5daf0f6eac2acefea31c78df1a0aa2d6f76f66954326acf93bafa9092a5a7f5872276bba39ba4dfebbcb7c21ef88d4334ff95bb4d216b9dfe0
   languageName: node
   linkType: hard
 
@@ -8439,6 +8351,7 @@ fsevents@^1.2.7:
     "@babel/plugin-proposal-decorators": ^7.13.5
     "@babel/preset-env": ^7.13.5
     "@babel/preset-typescript": ^7.13.0
+    "@repeaterjs/repeater": ^3.0.4
     "@types/babel__core": ^7
     "@types/babel__preset-env": ^7
     "@types/webpack-dev-server": ^3
@@ -8449,7 +8362,6 @@ fsevents@^1.2.7:
     lit-element: ^2.4.0
     npm: ^7.5.6
     pnp-webpack-plugin: ^1.6.4
-    ts-loader: ^8.0.17
     ts-pnp: ^1.2.0
     webpack: ^5.24.1
     webpack-cli: ^4.5.0

@@ -1,8 +1,9 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const TsCheckerPlugin = require('fork-ts-checker-webpack-plugin');
 const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
 
-babelOptions = {
+const babelOptions = {
   presets: [
     ['@babel/preset-typescript', { targets: "defaults" }]
   ],
@@ -13,8 +14,26 @@ babelOptions = {
   sourceMaps: "both"
 }
 
+/*
+const tsCheckOptions = {
+  async: process.env.NODE_ENV !== "production",
+  mode: "write-references",
+  typescript: {
+    build: true,
+    configFile: resolve(__dirname, "./tsconfig.json"),
+    mode: "write-tsbuildinfo",
+    profile: process.env.NODE_ENV !== "production",
+    diagnosticOptions: {
+      semantic: true,
+      syntactic: true,
+    },
+  },
+}
+*/
+
 module.exports = {
-	mode: 'development',
+	mode: process.env.NODE_ENV === "production" ? "production" : "development",
+	node: { __dirname: true },
 	devtool: 'source-map',
 	entry: './src/index.js',
 	output: {
@@ -36,7 +55,11 @@ module.exports = {
 	  plugins: [ PnpWebpackPlugin ]
 	},
 	resolveLoader: { plugins: [ PnpWebpackPlugin.moduleLoader(module) ] },
-	plugins: [ new HtmlWebpackPlugin() ],
+	target: "async-node",
+	plugins: [
+//	  new HtmlWebpackPlugin(),
+//    new TsCheckerPlugin(tsCheckOptions),
+	],
 	devServer: {
 	  contentBase: path.join(__dirname, 'dist'),
 	  compress: false,
